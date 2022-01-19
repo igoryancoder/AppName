@@ -1,0 +1,162 @@
+import { CASHBACK, DEPOSITS, LOANS, TRANSFERS } from '../assets/images';
+
+export const texts = {
+	welcome: {
+		screens: [
+			{
+				header: 'Make transfers',
+				info: 'Make easy and secure transfers to any crypto wallet worldwide. Get cashback on each transfer!',
+				image: TRANSFERS,
+				buttonText: 'Next',
+			},
+			{
+				header: 'Make deposits',
+				info: 'Make deposits in the most popular cryptocurrencies and get your interests daily. Withdraw anytime.',
+				image: DEPOSITS,
+				buttonText: 'Next',
+			},
+			{
+				header: 'Take loans',
+				info: 'Get money without selling your crypto assets. Pay back anytime you want. Borderless opportunities for your financial ambitions!',
+				image: LOANS,
+				buttonText: 'Next',
+			},
+			{
+				header: 'Get cashback',
+				info: 'Receive a reward every time you make a transfer. Invite your friends to AppName and get increased cashback.',
+				image: CASHBACK,
+				buttonText: 'OK',
+			},
+		],
+	},
+	securityCode: {
+		header: 'Enter security code',
+		forgot: 'Forgot?',
+		skip: 'Skip',
+	},
+	setSecurityCode: {
+		header1: 'Set security code',
+		header2: 'Confirm security code',
+	},
+	signIn: {
+		header: 'Sign in',
+		signUp1: 'Don’t have an account?',
+		signUp2: ' Sign up',
+		forgotPassword: 'Forgot Your Password?',
+		number: 'Phone number',
+		numberEnter: 'Enter your phone number',
+		password: 'Password',
+		passEnter: 'Enter your password',
+	},
+	forgotPassword: {
+		header: 'Forgot Password?',
+		number: 'Phone number',
+		numberEnter: 'Enter your phone number',
+		password: 'Password',
+		passEnter: 'Enter your password',
+		confirmPassword: 'Confirm password',
+		confirmPassEnter: 'Confirm new password',
+		confirm: 'Confirm',
+	},
+	signUp: {
+		header: 'Sign up',
+		name: 'Name',
+		namePlaceholder: 'Enter your name',
+		number: 'Phone number',
+		numberEnter: 'Enter your phone number',
+		password: 'Password',
+		passEnter: 'Enter your password',
+		confirmPassword: 'Confirm password',
+		confirmPassEnter: 'Confirm new password',
+		signIn1: 'Already have an account?',
+		signIn2: 'Sign in',
+		termsCondition1: 'Please confirm you agree to our ',
+		termsCondition2: 'Terms & Conditions',
+		referenceCodePlaceholder: 'Enter your referral code here',
+		dropdownHeader: 'Have a referral code? (optional)',
+		dropdownInfo: [
+			'Enter your referral code then follow the steps below to receive your asset.',
+			'NOTE: You will not be able to enter a referral code after account verification.',
+			'1. Complete KYC (Verification process)\n2. Receive confirmation of account verification',
+		],
+	},
+	verification: {
+		header: 'Verification code',
+		info: 'Please type a verification code sent\nto ',
+		resend: 'Resend Code?',
+	},
+	verificationConfirm: {
+		header: 'Your password was\nsuccessfully changed.',
+	},
+	accountVerification: {
+		header: 'Account\nverification',
+		confirm: 'Start verification',
+		cancel: 'Skip',
+		send: 'Send',
+		document: 'Document',
+		documentUpload: 'Upload your document',
+	},
+	overView: {
+		header: 'Total wallets balance',
+		interests: 'Total interests earned',
+		lastWeek: 'last week',
+		buttons: [
+			{
+				text: 'Transfer',
+				icon: '\uE844',
+				rout: '',
+			},
+			{
+				text: 'Deposits',
+				icon: '\uE81B',
+				rout: '',
+			},
+			{
+				text: 'Loan',
+				icon: '\uE833',
+				rout: '',
+			},
+		],
+	},
+	wallet: {
+		main: {
+			header: 'Wallets',
+			info: 'Add a wallet to start',
+			add: 'Add wallet',
+			copy: 'Copy',
+			cancel: 'Cancel',
+			share: 'Share',
+			address: 'Wallet address',
+		},
+		add: {
+			header: 'Add Wallet',
+			coinDefaultHeader: 'Coin',
+			coinDefault: 'Choose coin',
+		},
+		refill: {
+			header: 'Refill BTC Wallet',
+		},
+		withdraw: {
+			header: 'Withdraw from BTC Wallet',
+			amount: 'Amount',
+			enterAmount: 'Enter amount',
+			to: 'To',
+			toSmall: 'to',
+			from: 'From',
+			fait: 'Fiat equivalent',
+			enterWallet: 'Enter wallet ID',
+			withdrawCoin: 'Withdraw all wallet coins',
+			withdrawCoins: 'Withdraw coins',
+			refillWallet: 'Refill wallet',
+			confirm: 'Confirm',
+			back: 'Main screen',
+		},
+		modal: {
+			choose: 'Choose',
+		},
+		success: {
+			header: 'Transaction successful',
+			fiat: 'Fiat equivalent ',
+		},
+	},
+};

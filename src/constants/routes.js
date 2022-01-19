@@ -1,0 +1,29 @@
+// @flow
+
+export const WELCOME_SCREEN: string = 'WELCOME_SCREEN';
+export const SECURITY_CODE_SCREEN: string = 'SECURITY_CODE_SCREEN';
+export const LOGIN_SCREEN: string = 'LOGIN_SCREEN';
+export const SIGN_UP_SCREEN: string = 'SIGN_UP_SCREEN';
+export const FORGOT_PASSWORD_SCREEN: string = 'FORGOT_PASSWORD_SCREEN';
+export const VERIFICATION_CODE_SCREEN: string = 'VERIFICATION_CODE_SCREEN';
+export const SET_SECURITY_CODE_SCREEN: string = 'SET_SECURITY_CODE';
+export const OVERVIEW_SCREEN: string = 'OVERVIEW_SCREEN';
+export const OVERVIEW_NAV: string = 'OVERVIEW_NAV';
+export const AUTH_NAV: string = 'AUTH_NAV';
+export const EMPTY_NAV_VIEW: string = 'EMPTY_NAV_VIEW';
+export const INITIAL: string = 'INITIAL';
+export const OVERVIEW_TAB: string = 'OVERVIEW_TAB';
+export const WALLETS_TAB: string = 'WALLETS_TAB';
+export const ANALYTICS_TAB: string = 'ANALYTICS_TAB';
+export const SETTINGS_TAB: string = 'SETTINGS_TAB';
+export const ACCOUNT_VERIFICATION: string = 'ACCOUNT_VERIFICATION';
+export const VERIFICATION_CONFIRM: string = 'VERIFICATION_CONFIRM';
+export const UPLOAD_DOCUMENT: string = 'UPLOAD_DOCUMENT';
+export const WALLETS_SCREEN: string = 'WALLETS_SCREEN';
+export const WALLETS_ADD: string = 'WALLETS_ADD';
+export const WALLETS_QR: string = 'WALLETS_QR';
+export const COIN_WALLET: string = 'COIN_WALLET';
+export const REFILL: string = 'REFILL';
+export const WITHDRAW: string = 'WITHDRAW';
+export const TRANSACTION_CONFIRM: string = 'TRANSACTION_CONFIRM';
+export const SUCCESS_TRANSACTION: string = 'SUCCESS_TRANSACTION';

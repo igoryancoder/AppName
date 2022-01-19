@@ -1,0 +1,10 @@
+export const CASHBACK = require('./cashback.png');
+export const DEPOSITS = require('./deposits.png');
+export const LOANS = require('./loans.png');
+export const TRANSFERS = require('./transfers.png');
+export const LOGO = require('./logo.png');
+export const SIGN_IN = require('./signIn.png');
+export const UPLOAD = require('./upload.png');
+export const RETAILS = require('./rates.png');
+export const INFO = require('./info.png');
+export const WALLET = require('./wallet.png');
